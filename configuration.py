@@ -41,12 +41,12 @@ class QuicConfiguration:
     Whether this is the client side of the QUIC connection.
     """
 
-    max_data: int = 1048576
+    max_data: int = 2097152
     """
     Connection-wide flow control limit.
     """
 
-    max_stream_data: int = 1048576
+    max_stream_data: int = 2097152
     """
     Per-stream flow control limit.
     """
